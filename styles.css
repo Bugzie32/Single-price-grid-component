@@ -6,8 +6,67 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+/* Fix font size for each section */
 body {
+	font-size: 62.5%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 100vh;
 	background-color: hsl(204, 43%, 93%);
+}
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.padd {
+	padding: 50px;
+}
+.top {
+	background-color: white;
+	line-height: 30px;
+	border-radius: 10px 10px 0 0;
+	padding-bottom: 40px;
+}
+
+.hassle {
+	margin-bottom: 7px;
+}
+h2 {
+	padding-bottom: 20px;
+	color: hsl(179, 62%, 43%);
+}
+.top h3 {
+	color: hsl(71, 73%, 54%);
+}
+
+.top p {
+	color: hsl(218, 22%, 67%);
+}
+
+.bottom {
+	display: flex;
+}
+.padd-btm {
+	padding: 40px 50px;
+}
+
+.month {
+	padding-top: 40px;
+	background-color: hsl(179, 62%, 43%);
+	color: white;
+}
+
+.month_amount {
+	margin: 10px 0px;
+}
+
+.why_us {
+	background-color: hsl(179, 49%, 58%);
 }
 
 .attribution {
