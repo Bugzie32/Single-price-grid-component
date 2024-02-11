@@ -55,6 +55,7 @@ h2 {
 .bottom {
 	display: flex;
 	width: 100%;
+	color: white;
 }
 
 .month {
@@ -63,12 +64,90 @@ h2 {
 	border-bottom-left-radius: 0.7em;
 }
 
-.why_us {
-	background-color: hsl(179, 63%, 51%);
-	width: 50%;
-	border-bottom-right-radius: 0.7rem;
+.month h3 {
+	font-size: 1.1rem;
+	margin-bottom: 1em;
 }
 
-.month .why_us {
+.month_amount {
+	color: rgba(255, 255, 255, 0.473);
+	font-size: 1rem;
+	margin-bottom: 0.7em;
+}
+span {
 	color: white;
+	font-size: 1.9rem;
+	font-weight: 700;
+	margin-right: 0.5em;
+}
+
+.full {
+	font-size: 0.9rem;
+	font-weight: 400;
+	margin-bottom: 2em;
+}
+
+.sign_up {
+	text-decoration: none;
+	background-color: hsl(71, 73%, 54%);
+	padding: 0.9em 0;
+	color: white;
+	display: flex;
+	justify-content: center;
+	border-radius: 0.3em;
+	font-size: 1rem;
+	font-weight: 700;
+	box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.253);
+}
+
+.why_us {
+	background-color: hsl(179, 46%, 51%);
+	width: 50%;
+	border-bottom-right-radius: 0.7em;
+}
+
+.why_us h3 {
+	font-size: 1.1rem;
+	margin-bottom: 1em;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	font-size: 0.9rem;
+	color: rgba(255, 255, 255, 0.699);
+	line-height: 1.4em;
+}
+
+/* Start Media Queries */
+
+@media screen and (max-width: 575px) {
+	section {
+		max-width: 300px;
+		width: 90%;
+	}
+
+	.padding {
+		padding: 2.5em;
+	}
+
+	.bottom {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.why_us,
+	.month {
+		width: 100%;
+	}
+
+	.month {
+		border-radius: 0;
+	}
+
+	.why_us {
+		border-radius: 0 0 0.7em 0.7em;
+	}
 }
