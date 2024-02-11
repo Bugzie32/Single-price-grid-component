@@ -23,56 +23,52 @@ main {
 	align-items: center;
 }
 
-.padd {
-	padding: 50px;
-}
-.top {
-	background-color: white;
-	line-height: 30px;
-	border-radius: 10px 10px 0 0;
-	padding-bottom: 40px;
+section {
+	max-width: 650px;
+	width: 80%;
 }
 
-.hassle {
-	margin-bottom: 7px;
+.top {
+	background-color: white;
+	border-radius: 0.7em 0.7em 0 0;
 }
+.padding {
+	padding: 4em;
+}
+
 h2 {
-	padding-bottom: 20px;
+	margin-bottom: 1em;
+	font-size: 1.4rem;
 	color: hsl(179, 62%, 43%);
 }
-.top h3 {
+.hassle {
+	font-size: 1rem;
 	color: hsl(71, 73%, 54%);
 }
 
 .top p {
+	margin-top: 0.6em;
+	font-size: 1rem;
 	color: hsl(218, 22%, 67%);
 }
 
 .bottom {
 	display: flex;
-}
-.padd-btm {
-	padding: 40px 50px;
+	width: 100%;
 }
 
 .month {
-	padding-top: 40px;
 	background-color: hsl(179, 62%, 43%);
-	color: white;
-}
-
-.month_amount {
-	margin: 10px 0px;
+	width: 50%;
+	border-bottom-left-radius: 0.7em;
 }
 
 .why_us {
-	background-color: hsl(179, 49%, 58%);
+	background-color: hsl(179, 63%, 51%);
+	width: 50%;
+	border-bottom-right-radius: 0.7rem;
 }
 
-.attribution {
-	font-size: 11px;
-	text-align: center;
-}
-.attribution a {
-	color: hsl(228, 45%, 44%);
+.month .why_us {
+	color: white;
 }
