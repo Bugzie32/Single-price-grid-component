@@ -7,7 +7,7 @@
 	box-sizing: border-box;
 }
 
-/* Fix font size for each section */
+/* Fixed font size for each section */
 body {
 	font-size: 62.5%;
 	display: flex;
